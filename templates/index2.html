@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Primera pagina con Flask </Title>
+        <link rel="stylesheet" href="{{ url_for("static", filename="base.css") }}">
+    </head>
+    <body>
+        <h1>Aplicación de Blog </h1>
+        <hr />
+        <p>En este blog hay {{num_posts}} posts.</p>
+    </body>
+</html>
